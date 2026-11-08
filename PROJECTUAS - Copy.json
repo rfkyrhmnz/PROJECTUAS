@@ -743,6 +743,118 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/38d85ff526274d68e0a345fc35a8ff948c306644b65043670466e394c85c8ab0_Blank Button White_Unpressed.png",
           "name": "Blank Button White_Unpressed.png"
         }
+      },
+      {
+        "file": "Lobby.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lobby.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level Selector3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Selector3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level Selector2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Selector2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level Selector1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Selector1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level Selector4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Selector4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level Selector5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Selector5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level Selector6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level Selector6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "About1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "About1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "About2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "About2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "About3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "About3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "About4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "About4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Menu.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/b609e60e111684ed212df3371066cb64fcab0176586ef93153e4b58241cbd96e_Menu.png",
+          "name": "Menu.png"
+        }
+      },
+      {
+        "file": "assets/Right arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/cf447ec45269c88d614a7e3964832435eaa938b7923ea542752f5b0b8bffdc28_Right arrow.png",
+          "name": "Right arrow.png"
+        }
       }
     ]
   },
@@ -776,19 +888,650 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 1.0973679695629506,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Lobby",
+          "persistentUuid": "c5697bc2-ae21-400c-b400-2a090d7d94e6",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StartGame",
+          "persistentUuid": "e84d0c8a-d329-497a-b3da-093fa1f9adaf",
+          "width": 0,
+          "x": 583,
+          "y": 217.5,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelSelect",
+          "persistentUuid": "7d42ea97-d100-4aff-8bea-9f81bc2b9bf1",
+          "width": 0,
+          "x": 583,
+          "y": 317.5,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "About",
+          "persistentUuid": "4a413c38-e30d-4b2d-9db1-b1ca857e0cd7",
+          "width": 0,
+          "x": 583,
+          "y": 417.5,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Quit",
+          "persistentUuid": "673bcd50-63a5-4d0f-8339-872588a1f750",
+          "width": 0,
+          "x": 583,
+          "y": 517.5,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StartGame",
+          "opacity": 0,
+          "persistentUuid": "aa3f80e6-1aa1-4d25-95bf-2df8bd25f1e3",
+          "width": 297,
+          "x": 486,
+          "y": 411,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 27,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelSelect",
+          "opacity": 0,
+          "persistentUuid": "9ed31fe3-88c5-4938-a3f7-06dec78c8f75",
+          "width": 295,
+          "x": 493,
+          "y": 475,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 26,
+          "keepRatio": true,
+          "layer": "",
+          "name": "About",
+          "opacity": 0,
+          "persistentUuid": "c56618f4-b9ed-44ae-b4d9-1b9ee8505971",
+          "width": 287,
+          "x": 491,
+          "y": 534,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 26,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Quit",
+          "opacity": 0,
+          "persistentUuid": "fcffe4e4-ac9c-47e7-98fe-0fa107d03872",
+          "width": 302,
+          "x": 487,
+          "y": 594,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lobby",
+          "persistentUuid": "8e4386bc-2d89-4538-9df5-a7f99441f4ec",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lobby.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "903d374b9fd0edfd9e9b0bca311799884c7b24b350b18b5897b1caab8e008bec",
+          "name": "StartGame",
+          "persistentUuid": "e5b89c50-b8b5-4df8-9d67-c0e82449722f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 114,
+                            "y": 0
+                          },
+                          {
+                            "x": 114,
+                            "y": 125
+                          },
+                          {
+                            "x": 0,
+                            "y": 125
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "903d374b9fd0edfd9e9b0bca311799884c7b24b350b18b5897b1caab8e008bec",
+          "name": "LevelSelect",
+          "persistentUuid": "47e17ab7-8d27-4a29-b773-256c85918887",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 114,
+                            "y": 0
+                          },
+                          {
+                            "x": 114,
+                            "y": 125
+                          },
+                          {
+                            "x": 0,
+                            "y": 125
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "903d374b9fd0edfd9e9b0bca311799884c7b24b350b18b5897b1caab8e008bec",
+          "name": "About",
+          "persistentUuid": "853411df-facb-4bca-af77-600ca94956e7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 114,
+                            "y": 0
+                          },
+                          {
+                            "x": 114,
+                            "y": 125
+                          },
+                          {
+                            "x": 0,
+                            "y": 125
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "903d374b9fd0edfd9e9b0bca311799884c7b24b350b18b5897b1caab8e008bec",
+          "name": "Quit",
+          "persistentUuid": "780c8724-a3c7-4086-a813-cf9a51d9bcc1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 114,
+                            "y": 0
+                          },
+                          {
+                            "x": 114,
+                            "y": 125
+                          },
+                          {
+                            "x": 0,
+                            "y": 125
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Lobby"
+          },
+          {
+            "objectName": "StartGame"
+          },
+          {
+            "objectName": "LevelSelect"
+          },
+          {
+            "objectName": "About"
+          },
+          {
+            "objectName": "Quit"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "aiGeneratedEventId": "01M6X7WRTNW5GRZS4M56V33F41",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "StartGame",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Gameplay1\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M6X7WRTNW5GRZS4M56V33F41",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "LevelSelect",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level Select\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M6X7WRTNW5GRZS4M56V33F41",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "About",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"About\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M6X7WRTNW5GRZS4M56V33F41",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Quit",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -858,7 +1601,36 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
     },
     {
       "b": 255,
@@ -883,15 +1655,33 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.1301659159002857,
+        "zoomFactor": 1.4307927813134367,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "ButtonShop",
+          "objects": [
+            {
+              "name": "ButtonShop_Kiri"
+            },
+            {
+              "name": "ButtonShop_Kanan"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
+          "name": "ShopChoice",
+          "type": "string",
+          "value": ""
+        },
+        {
           "name": "State",
+          "persistentUuid": "dbf07dbf-f498-4db3-acee-d0bb2f5d2e44",
           "type": "string",
           "value": "play"
         },
@@ -1676,7 +2466,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "ShopUI",
-          "name": "BtnShop_Back",
+          "name": "ButtonBack",
           "persistentUuid": "2a855db3-d94f-40db-a2fe-e6d84fd0ead3",
           "width": 0,
           "x": 998,
@@ -1692,7 +2482,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "ShopUI",
-          "name": "BtnShop_Left",
+          "name": "ButtonShop_Kiri",
           "persistentUuid": "1ce61672-1aed-4f8e-a649-34b87cd8f70b",
           "width": 0,
           "x": 453,
@@ -1708,7 +2498,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "ShopUI",
-          "name": "BtnShop_Right",
+          "name": "ButtonShop_Kanan",
           "persistentUuid": "e541ef16-52b0-4f5a-b73a-90f7e6207639",
           "width": 0,
           "x": 809,
@@ -1724,7 +2514,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "ShopUI",
-          "name": "BtnBuy_Lives",
+          "name": "ButtonShop2Kiri",
           "persistentUuid": "a01c9d8f-9420-4d62-b5a8-cead19db5689",
           "width": 0,
           "x": 509,
@@ -1740,7 +2530,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "ShopUI",
-          "name": "BtnBuy_Ammo",
+          "name": "ButtonShop2Kanan",
           "persistentUuid": "1acdb185-3e08-4a36-b7b8-959853a62f38",
           "width": 0,
           "x": 811,
@@ -4941,7 +5731,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "8dc6ead38f64f162322abbad35d1c01384f698e208198e8ad8e5668ef9304b78",
-          "name": "BtnShop_Left",
+          "name": "ButtonShop_Kiri",
           "persistentUuid": "05bdb8a1-64dc-4440-9805-479623fc98a7",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -5061,7 +5851,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "8dc6ead38f64f162322abbad35d1c01384f698e208198e8ad8e5668ef9304b78",
-          "name": "BtnShop_Right",
+          "name": "ButtonShop_Kanan",
           "persistentUuid": "bce7fbd7-89a8-41ea-aa22-564939fe1a0b",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -5181,7 +5971,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "8dc6ead38f64f162322abbad35d1c01384f698e208198e8ad8e5668ef9304b78",
-          "name": "BtnShop_Back",
+          "name": "ButtonBack",
           "persistentUuid": "5e90a51e-e05d-44cc-ac36-adcc6d8accf3",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -5301,7 +6091,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "8dc6ead38f64f162322abbad35d1c01384f698e208198e8ad8e5668ef9304b78",
-          "name": "BtnBuy_Lives",
+          "name": "ButtonShop2Kiri",
           "persistentUuid": "f9ddf2ef-d2a6-4efc-a803-b93f8dca0d43",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -5421,7 +6211,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "8dc6ead38f64f162322abbad35d1c01384f698e208198e8ad8e5668ef9304b78",
-          "name": "BtnBuy_Ammo",
+          "name": "ButtonShop2Kanan",
           "persistentUuid": "dcabf5b6-9154-4824-b6ea-a1c7f9f8467f",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -5603,19 +6393,19 @@
             "objectName": "Shop4"
           },
           {
-            "objectName": "BtnShop_Left"
+            "objectName": "ButtonShop_Kiri"
           },
           {
-            "objectName": "BtnShop_Right"
+            "objectName": "ButtonShop_Kanan"
           },
           {
-            "objectName": "BtnShop_Back"
+            "objectName": "ButtonBack"
           },
           {
-            "objectName": "BtnBuy_Lives"
+            "objectName": "ButtonShop2Kiri"
           },
           {
-            "objectName": "BtnBuy_Ammo"
+            "objectName": "ButtonShop2Kanan"
           }
         ]
       },
@@ -7587,7 +8377,7 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "BtnShop_Left",
+                    "ButtonShop_Kiri",
                     ""
                   ]
                 },
@@ -7596,7 +8386,7 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "BtnShop_Right",
+                    "ButtonShop_Kanan",
                     ""
                   ]
                 },
@@ -7605,7 +8395,7 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "BtnShop_Back",
+                    "ButtonBack",
                     ""
                   ]
                 },
@@ -7614,7 +8404,7 @@
                     "value": "Hide"
                   },
                   "parameters": [
-                    "BtnBuy_Lives"
+                    "ButtonShop2Kiri"
                   ]
                 },
                 {
@@ -7622,7 +8412,7 @@
                     "value": "Hide"
                   },
                   "parameters": [
-                    "BtnBuy_Ammo"
+                    "ButtonShop2Kanan"
                   ]
                 },
                 {
@@ -7710,7 +8500,7 @@
                     "value": "Hide"
                   },
                   "parameters": [
-                    "BtnShop_Left"
+                    "ButtonShop_Kiri"
                   ]
                 },
                 {
@@ -7718,7 +8508,7 @@
                     "value": "Hide"
                   },
                   "parameters": [
-                    "BtnShop_Right"
+                    "ButtonShop_Kanan"
                   ]
                 },
                 {
@@ -7726,7 +8516,7 @@
                     "value": "Hide"
                   },
                   "parameters": [
-                    "BtnShop_Back"
+                    "ButtonBack"
                   ]
                 },
                 {
@@ -7734,7 +8524,7 @@
                     "value": "Hide"
                   },
                   "parameters": [
-                    "BtnBuy_Lives"
+                    "ButtonShop2Kiri"
                   ]
                 },
                 {
@@ -7742,7 +8532,7 @@
                     "value": "Hide"
                   },
                   "parameters": [
-                    "BtnBuy_Ammo"
+                    "ButtonShop2Kanan"
                   ]
                 }
               ]
@@ -7761,6 +8551,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "aiGeneratedEventId": "01M6X5WGTKZA01KVH2S1CF77ZV",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7784,13 +8575,23 @@
                         "value": "ButtonStates::ButtonFSM::IsClicked"
                       },
                       "parameters": [
-                        "BtnShop_Left",
+                        "ButtonShop_Kiri",
                         "ButtonFSM",
                         ""
                       ]
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "ShopChoice",
+                        "=",
+                        "\"lives\""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ResetTimer"
@@ -7832,7 +8633,7 @@
                         "value": "Hide"
                       },
                       "parameters": [
-                        "BtnShop_Left"
+                        "ButtonShop_Kiri"
                       ]
                     },
                     {
@@ -7840,7 +8641,7 @@
                         "value": "Hide"
                       },
                       "parameters": [
-                        "BtnShop_Right"
+                        "ButtonShop_Kanan"
                       ]
                     },
                     {
@@ -7848,7 +8649,7 @@
                         "value": "Hide"
                       },
                       "parameters": [
-                        "BtnShop_Back"
+                        "ButtonBack"
                       ]
                     },
                     {
@@ -7856,7 +8657,7 @@
                         "value": "Show"
                       },
                       "parameters": [
-                        "BtnBuy_Lives",
+                        "ButtonShop2Kiri",
                         ""
                       ]
                     },
@@ -7865,7 +8666,7 @@
                         "value": "Show"
                       },
                       "parameters": [
-                        "BtnBuy_Ammo",
+                        "ButtonShop2Kanan",
                         ""
                       ]
                     }
@@ -7879,13 +8680,23 @@
                         "value": "ButtonStates::ButtonFSM::IsClicked"
                       },
                       "parameters": [
-                        "BtnShop_Right",
+                        "ButtonShop_Kanan",
                         "ButtonFSM",
                         ""
                       ]
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "ShopChoice",
+                        "=",
+                        "\"ammo\""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ResetTimer"
@@ -7927,7 +8738,7 @@
                         "value": "Hide"
                       },
                       "parameters": [
-                        "BtnShop_Left"
+                        "ButtonShop_Kiri"
                       ]
                     },
                     {
@@ -7935,7 +8746,7 @@
                         "value": "Hide"
                       },
                       "parameters": [
-                        "BtnShop_Right"
+                        "ButtonShop_Kanan"
                       ]
                     },
                     {
@@ -7943,7 +8754,7 @@
                         "value": "Hide"
                       },
                       "parameters": [
-                        "BtnShop_Back"
+                        "ButtonBack"
                       ]
                     },
                     {
@@ -7951,7 +8762,7 @@
                         "value": "Show"
                       },
                       "parameters": [
-                        "BtnBuy_Lives",
+                        "ButtonShop2Kiri",
                         ""
                       ]
                     },
@@ -7960,7 +8771,7 @@
                         "value": "Show"
                       },
                       "parameters": [
-                        "BtnBuy_Ammo",
+                        "ButtonShop2Kanan",
                         ""
                       ]
                     }
@@ -7974,7 +8785,7 @@
                         "value": "ButtonStates::ButtonFSM::IsClicked"
                       },
                       "parameters": [
-                        "BtnShop_Back",
+                        "ButtonBack",
                         "ButtonFSM",
                         ""
                       ]
@@ -8004,7 +8815,7 @@
                         "value": "Hide"
                       },
                       "parameters": [
-                        "BtnShop_Left"
+                        "ButtonShop_Kiri"
                       ]
                     },
                     {
@@ -8012,7 +8823,7 @@
                         "value": "Hide"
                       },
                       "parameters": [
-                        "BtnShop_Right"
+                        "ButtonShop_Kanan"
                       ]
                     },
                     {
@@ -8020,7 +8831,7 @@
                         "value": "Hide"
                       },
                       "parameters": [
-                        "BtnShop_Back"
+                        "ButtonBack"
                       ]
                     },
                     {
@@ -8051,6 +8862,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "aiGeneratedEventId": "01M6X6MMRAQKKYH5J329FVAH1D",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8071,6 +8883,16 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "ShopChoice",
+                        "=",
+                        "\"lives\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "CompareTimer"
                       },
                       "parameters": [
@@ -8085,7 +8907,7 @@
                         "value": "ButtonStates::ButtonFSM::IsClicked"
                       },
                       "parameters": [
-                        "BtnBuy_Lives",
+                        "ButtonShop2Kiri",
                         "ButtonFSM",
                         ""
                       ]
@@ -8105,16 +8927,6 @@
                             ">=",
                             "15"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "NumberVariable"
-                          },
-                          "parameters": [
-                            "Lives",
-                            "<",
-                            "3"
-                          ]
                         }
                       ],
                       "actions": [
@@ -8130,16 +8942,6 @@
                         },
                         {
                           "type": {
-                            "value": "SetNumberVariable"
-                          },
-                          "parameters": [
-                            "Lives",
-                            "+",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
@@ -8147,6 +8949,16 @@
                             "HP",
                             "=",
                             "min(150, MC.HP + 50)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Lives",
+                            "=",
+                            "ceil(MC.HP / 50)"
                           ]
                         },
                         {
@@ -8203,7 +9015,7 @@
                             "value": "Hide"
                           },
                           "parameters": [
-                            "BtnBuy_Lives"
+                            "ButtonShop2Kiri"
                           ]
                         },
                         {
@@ -8211,7 +9023,7 @@
                             "value": "Hide"
                           },
                           "parameters": [
-                            "BtnBuy_Ammo"
+                            "ButtonShop2Kanan"
                           ]
                         },
                         {
@@ -8261,7 +9073,7 @@
                             "value": "Hide"
                           },
                           "parameters": [
-                            "BtnBuy_Lives"
+                            "ButtonShop2Kiri"
                           ]
                         },
                         {
@@ -8269,7 +9081,7 @@
                             "value": "Hide"
                           },
                           "parameters": [
-                            "BtnBuy_Ammo"
+                            "ButtonShop2Kanan"
                           ]
                         },
                         {
@@ -8290,6 +9102,16 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "ShopChoice",
+                        "=",
+                        "\"ammo\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "CompareTimer"
                       },
                       "parameters": [
@@ -8304,7 +9126,7 @@
                         "value": "ButtonStates::ButtonFSM::IsClicked"
                       },
                       "parameters": [
-                        "BtnBuy_Ammo",
+                        "ButtonShop2Kiri",
                         "ButtonFSM",
                         ""
                       ]
@@ -8401,7 +9223,7 @@
                             "value": "Hide"
                           },
                           "parameters": [
-                            "BtnBuy_Lives"
+                            "ButtonShop2Kiri"
                           ]
                         },
                         {
@@ -8409,7 +9231,7 @@
                             "value": "Hide"
                           },
                           "parameters": [
-                            "BtnBuy_Ammo"
+                            "ButtonShop2Kanan"
                           ]
                         },
                         {
@@ -8459,7 +9281,7 @@
                             "value": "Hide"
                           },
                           "parameters": [
-                            "BtnBuy_Lives"
+                            "ButtonShop2Kiri"
                           ]
                         },
                         {
@@ -8467,7 +9289,7 @@
                             "value": "Hide"
                           },
                           "parameters": [
-                            "BtnBuy_Ammo"
+                            "ButtonShop2Kanan"
                           ]
                         },
                         {
@@ -8482,6 +9304,104 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"buydelay\"",
+                        ">",
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "ButtonShop2Kanan",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "State",
+                        "=",
+                        "\"main\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Shop2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Shop",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "ButtonShop2Kiri"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "ButtonShop2Kanan"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "ButtonShop_Kiri",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "ButtonShop_Kanan",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "ButtonBack",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -8489,12 +9409,12 @@
           "parameters": []
         },
         {
-          "aiGeneratedEventId": "01M6X1MFXWD1K1C1DSZPR0YYJS",
+          "aiGeneratedEventId": "01M6X5WGTKZA01KVH2S1CF77ZV",
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Shop overlay hasil 5 detik",
+          "name": "Shop overlay hasil 3 detik",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -8519,7 +9439,7 @@
                     "",
                     "\"result\"",
                     ">",
-                    "5"
+                    "3"
                   ]
                 }
               ],
@@ -8575,7 +9495,7 @@
                     "",
                     "\"result\"",
                     ">",
-                    "5"
+                    "3"
                   ]
                 }
               ],
@@ -8979,6 +9899,2113 @@
         }
       ],
       "behaviorsSharedData": []
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Materi",
+      "name": "Materi",
+      "r": 247,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level_32Select",
+      "name": "Level Select",
+      "r": 247,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelSelector1",
+          "persistentUuid": "d204d4a2-93b7-41c5-8872-ec01e689a97d",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelSelector2",
+          "persistentUuid": "6f67e163-6aaf-461e-b986-6107c6e9eb42",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelSelector3",
+          "persistentUuid": "625bec49-9d06-4d5c-9163-24f8e05bd264",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "LevelSelector1",
+          "persistentUuid": "1c6eb87b-97cc-482d-a8b1-c7110c611527",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Level Selector4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "LevelSelector2",
+          "persistentUuid": "696b884e-f131-43bd-8da0-17c8e18d01a6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Level Selector5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "LevelSelector3",
+          "persistentUuid": "fc0e01a1-fffc-4044-8885-278401870e5f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Level Selector6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "LevelSelector1"
+          },
+          {
+            "objectName": "LevelSelector2"
+          },
+          {
+            "objectName": "LevelSelector3"
+          }
+        ]
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "About",
+      "name": "About",
+      "r": 247,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "About1",
+          "persistentUuid": "fc702983-c221-4ec6-89d9-39962ffc5675",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "About2",
+          "persistentUuid": "c0fa6634-5571-444b-a850-0ba4a03887e9",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "About3",
+          "persistentUuid": "7e9d3cb2-f687-432b-a2a5-39c0cfaee4e2",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "About4",
+          "persistentUuid": "66fed148-70f2-41a7-981a-3cf78aa4e1d1",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ButtonMainMenu",
+          "opacity": 0,
+          "persistentUuid": "148da59c-ce0e-49b1-bc86-c8cd3afb9fc3",
+          "width": 204,
+          "x": 543,
+          "y": 644,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 41,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ButtonAbout1",
+          "opacity": 0,
+          "persistentUuid": "baef082e-3666-44ad-9e0f-51033746c416",
+          "width": 107,
+          "x": 1139,
+          "y": 649,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 43,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Button2Next",
+          "opacity": 0,
+          "persistentUuid": "652d5bd4-2d70-43fb-9cd4-0720a2b91d45",
+          "width": 107,
+          "x": 1136,
+          "y": 651,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Button2Back",
+          "opacity": 0,
+          "persistentUuid": "28bc9709-63aa-40fb-b1b6-4a79089713d1",
+          "width": 107,
+          "x": 40,
+          "y": 650,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ButtonAbout3Kanan",
+          "opacity": 0,
+          "persistentUuid": "023a7550-8be8-462d-908e-7b13728ed36d",
+          "width": 116,
+          "x": 1135,
+          "y": 651,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ButtonAbout3Kiri",
+          "opacity": 0,
+          "persistentUuid": "8290df98-093d-4871-b939-fb69aaca7b42",
+          "width": 107,
+          "x": 38,
+          "y": 642,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "About1",
+          "persistentUuid": "4eea9a99-c4b7-43ca-a4a6-a6bc6fe6473b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "About1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "About2",
+          "persistentUuid": "6f4c4044-5fb1-4fbf-9777-99a752d536c6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "About2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "About3",
+          "persistentUuid": "20dad17e-b408-41a1-a11d-4276c27d2a95",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "About3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "About4",
+          "persistentUuid": "6d8f460c-d342-40b6-ac7e-c7c63570dd88",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "About4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "ed150d95b590f97deda65902f26379fd804a3a6d1cb89344efc4d0ddbbc9dc3c",
+          "name": "ButtonAbout1",
+          "persistentUuid": "42e8105b-3797-4571-b276-343fac8ab563",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 109
+                          },
+                          {
+                            "x": 0,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "ed150d95b590f97deda65902f26379fd804a3a6d1cb89344efc4d0ddbbc9dc3c",
+          "name": "Button2Next",
+          "persistentUuid": "90b6dfb5-a278-4c1a-93d8-9065a6b5e5a6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 109
+                          },
+                          {
+                            "x": 0,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "ed150d95b590f97deda65902f26379fd804a3a6d1cb89344efc4d0ddbbc9dc3c",
+          "name": "Button2Back",
+          "persistentUuid": "c02fcacb-1096-4eec-bfb1-d1c2baf587b1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 109
+                          },
+                          {
+                            "x": 0,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "ed150d95b590f97deda65902f26379fd804a3a6d1cb89344efc4d0ddbbc9dc3c",
+          "name": "ButtonAbout3Kiri",
+          "persistentUuid": "4916b613-85a8-4d20-8c52-11e6db6f41d2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 109
+                          },
+                          {
+                            "x": 0,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "ed150d95b590f97deda65902f26379fd804a3a6d1cb89344efc4d0ddbbc9dc3c",
+          "name": "ButtonAbout3Kanan",
+          "persistentUuid": "a3a61dab-6d5f-4650-9a70-2d37d7dd21d7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 109
+                          },
+                          {
+                            "x": 0,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "ed150d95b590f97deda65902f26379fd804a3a6d1cb89344efc4d0ddbbc9dc3c",
+          "name": "ButtonMainMenu",
+          "persistentUuid": "6fed7c12-8ae5-41cd-b4ab-da72c06811f8",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 109
+                          },
+                          {
+                            "x": 0,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "About1"
+          },
+          {
+            "objectName": "About2"
+          },
+          {
+            "objectName": "About3"
+          },
+          {
+            "objectName": "About4"
+          },
+          {
+            "objectName": "ButtonAbout1"
+          },
+          {
+            "objectName": "Button2Next"
+          },
+          {
+            "objectName": "Button2Back"
+          },
+          {
+            "objectName": "ButtonAbout3Kiri"
+          },
+          {
+            "objectName": "ButtonAbout3Kanan"
+          },
+          {
+            "objectName": "ButtonMainMenu"
+          }
+        ]
+      },
+      "events": [
+        {
+          "aiGeneratedEventId": "01M6X81D3X4JXGHRMSVMQ1S0Z5",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "About1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "About2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "About3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "About4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "ButtonAbout1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Button2Next"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Button2Back"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "ButtonAbout3Kiri"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "ButtonAbout3Kanan"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "ButtonMainMenu"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M6X81D3X4JXGHRMSVMQ1S0Z5",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "ButtonAbout1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\"",
+                ">",
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "ButtonAbout1",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "About2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "About1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "ButtonAbout1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Button2Next",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Button2Back",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M6X81D3X4JXGHRMSVMQ1S0Z5",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Button2Next"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\"",
+                ">",
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Button2Next",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "About3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "About2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Button2Next"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Button2Back"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "ButtonAbout3Kiri",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "ButtonAbout3Kanan",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M6X81D3X4JXGHRMSVMQ1S0Z5",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Button2Back"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\"",
+                ">",
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Button2Back",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "About1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "About2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Button2Next"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Button2Back"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "ButtonAbout1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M6X81D3X4JXGHRMSVMQ1S0Z5",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "ButtonAbout3Kiri"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\"",
+                ">",
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "ButtonAbout3Kiri",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "About2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "About3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "ButtonAbout3Kiri"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "ButtonAbout3Kanan"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Button2Next",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Button2Back",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M6X81D3X4JXGHRMSVMQ1S0Z5",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "ButtonAbout3Kanan"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\"",
+                ">",
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "ButtonAbout3Kanan",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"about_delay\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "About4",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "About3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "ButtonAbout3Kiri"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "ButtonAbout3Kanan"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "ButtonMainMenu",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M6X7ZDQS8WJ7ENQ3MMXPQNX8",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "ButtonMainMenu"
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "ButtonMainMenu",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Intro\"",
+                "no"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
     }
   ],
   "layoutsFolderStructure": {
@@ -8995,6 +12022,15 @@
       },
       {
         "itemName": "Outro"
+      },
+      {
+        "itemName": "Materi"
+      },
+      {
+        "itemName": "Level Select"
+      },
+      {
+        "itemName": "About"
       }
     ]
   },
@@ -9005,8 +12041,8 @@
   "tests": [
     {
       "description": "Verify coin overlap and shooting",
-      "lastRunAt": 1794118851039,
-      "lastRunDurationMs": 193,
+      "lastRunAt": 1794128365881,
+      "lastRunDurationMs": 457,
       "lastRunFramesExecuted": 48,
       "lastRunStatus": "passed",
       "name": "coin_shoot_check",
@@ -9034,6 +12070,327 @@
         "console.log('ammo '+ammoBefore+'->'+ammoAfter+' bullets='+harness.getObjects('Bullet').length);",
         "harness.assert(ammoAfter === ammoBefore - 1, 'ammo decreased by shooting');"
       ]
+    },
+    {
+      "description": "Verify ButtonShop_Kiri buys Nyawa and Kanan buys Ammo",
+      "lastRunAt": 1794128383967,
+      "lastRunDurationMs": 624,
+      "lastRunFramesExecuted": 355,
+      "lastRunStatus": "passed",
+      "name": "shop_buy_check",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Gameplay1');",
+        "await harness.stepFrames(10);",
+        "// setup: give coins, reduce lives so lives purchase is valid",
+        "harness.setSceneVariable('Coins', 30);",
+        "harness.setSceneVariable('Lives', 1);",
+        "harness.setSceneVariable('Ammo', 10);",
+        "await harness.stepFrames(2);",
+        "// open shop with E",
+        "harness.setKeyPressed('e', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('e', false);",
+        "await harness.stepFrames(5);",
+        "let state = harness.getSceneVariable('State');",
+        "harness.assert(state && state.value === 'main', 'E opens shop, State=main, got ' + JSON.stringify(state));",
+        "// click ButtonShop_Kiri (buy Nyawa path)",
+        "async function clickObj(name) {",
+        "  const objs = harness.getObjects(name);",
+        "  if (!objs.length) { harness.fail('object not found: ' + name); return false; }",
+        "  const o = objs[0];",
+        "  const cx = o.centerX, cy = o.centerY;",
+        "  harness.setMousePosition(cx, cy, o.layer);",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(true);",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(false);",
+        "  await harness.stepFrames(5);",
+        "  return true;",
+        "}",
+        "await clickObj('ButtonShop_Kiri');",
+        "state = harness.getSceneVariable('State');",
+        "let choice = harness.getSceneVariable('ShopChoice');",
+        "harness.assert(state && state.value === 'buy', 'ButtonShop_Kiri -> State=buy, got ' + JSON.stringify(state));",
+        "harness.assert(choice && choice.value === 'lives', 'ButtonShop_Kiri sets ShopChoice=lives, got ' + JSON.stringify(choice));",
+        "// wait buydelay 0.5s",
+        "await harness.stepFrames(40);",
+        "await clickObj('ButtonShop2Kiri');",
+        "await harness.stepFrames(5);",
+        "let lives = harness.getSceneVariable('Lives');",
+        "let coins = harness.getSceneVariable('Coins');",
+        "state = harness.getSceneVariable('State');",
+        "harness.assert(lives && lives.value === 2, 'Nyawa bertambah 1 -> Lives=2, got ' + JSON.stringify(lives));",
+        "harness.assert(coins && coins.value === 15, 'Coins berkurang 15 -> 15, got ' + JSON.stringify(coins));",
+        "harness.assert(state && state.value === 'success', 'purchase success State=success, got ' + JSON.stringify(state));",
+        "// wait 3 detik -> kembali play",
+        "await harness.stepFrames(200);",
+        "state = harness.getSceneVariable('State');",
+        "harness.assert(state && state.value === 'play', 'setelah 3 detik kembali play, got ' + JSON.stringify(state));",
+        "// --- test ammo path ---",
+        "harness.setSceneVariable('Coins', 30);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('e', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('e', false);",
+        "await harness.stepFrames(5);",
+        "await clickObj('ButtonShop_Kanan');",
+        "choice = harness.getSceneVariable('ShopChoice');",
+        "harness.assert(choice && choice.value === 'ammo', 'ButtonShop_Kanan sets ShopChoice=ammo, got ' + JSON.stringify(choice));",
+        "await harness.stepFrames(40);",
+        "await clickObj('ButtonShop2Kiri');",
+        "await harness.stepFrames(5);",
+        "let ammo = harness.getSceneVariable('Ammo');",
+        "coins = harness.getSceneVariable('Coins');",
+        "harness.assert(ammo && ammo.value === 20, 'Ammo bertambah 10 -> 20, got ' + JSON.stringify(ammo));",
+        "harness.assert(coins && coins.value === 10, 'Coins 30-20=10, got ' + JSON.stringify(coins));",
+        ""
+      ]
+    },
+    {
+      "description": "Verify exact 15 coins now succeeds",
+      "lastRunAt": 1794128640111,
+      "lastRunDurationMs": 525,
+      "lastRunFramesExecuted": 83,
+      "lastRunStatus": "passed",
+      "name": "shop_exact15_check",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Gameplay1');",
+        "await harness.stepFrames(10);",
+        "async function clickObj(name) {",
+        "  const objs = harness.getObjects(name);",
+        "  if (!objs.length) { harness.fail('object not found: ' + name); return; }",
+        "  const o = objs[0];",
+        "  harness.setMousePosition(o.centerX, o.centerY, o.layer);",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(true);",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(false);",
+        "  await harness.stepFrames(5);",
+        "}",
+        "// Bug case: Coins pas 15, Lives penuh 3 -> harus success sekarang",
+        "harness.setSceneVariable('Coins', 15);",
+        "harness.setSceneVariable('Lives', 3);",
+        "harness.setObjectVariable(harness.getObjects('MC')[0].id, 'HP', 150);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('e', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('e', false);",
+        "await harness.stepFrames(5);",
+        "await clickObj('ButtonShop_Kiri');",
+        "await harness.stepFrames(40);",
+        "await clickObj('ButtonShop2Kiri');",
+        "await harness.stepFrames(5);",
+        "let st = harness.getSceneVariable('State');",
+        "let coins = harness.getSceneVariable('Coins');",
+        "let lives = harness.getSceneVariable('Lives');",
+        "harness.assert(st.value === 'success', 'Coins pas 15 harus success (Shop3), got ' + st.value);",
+        "harness.assert(coins.value === 0, 'Coins 15-15=0, got ' + coins.value);",
+        "harness.assert(lives.value === 3, 'Lives tetap max 3, got ' + lives.value);",
+        ""
+      ]
+    },
+    {
+      "description": "Verify ammo path buttons work after fix",
+      "lastRunAt": 1794128905266,
+      "lastRunDurationMs": 839,
+      "lastRunFramesExecuted": 555,
+      "lastRunStatus": "passed",
+      "name": "shop_ammo_check",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Gameplay1');",
+        "await harness.stepFrames(10);",
+        "async function clickObj(name) {",
+        "  const objs = harness.getObjects(name);",
+        "  if (!objs.length) { harness.fail('object not found: ' + name); return; }",
+        "  const o = objs[0];",
+        "  harness.setMousePosition(o.centerX, o.centerY, o.layer);",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(true);",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(false);",
+        "  await harness.stepFrames(5);",
+        "}",
+        "// Path kanan (ammo) cukup coin -> Shop3",
+        "harness.setSceneVariable('Coins', 30);",
+        "harness.setSceneVariable('Ammo', 10);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('e', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('e', false);",
+        "await harness.stepFrames(5);",
+        "await clickObj('ButtonShop_Kanan');",
+        "await harness.stepFrames(40);",
+        "await clickObj('ButtonShop2Kiri');",
+        "await harness.stepFrames(5);",
+        "let st = harness.getSceneVariable('State');",
+        "let ammo = harness.getSceneVariable('Ammo');",
+        "harness.assert(st.value === 'success', 'Ammo cukup harus success, got ' + st.value);",
+        "harness.assert(ammo.value === 20, 'Ammo 10->20, got ' + ammo.value);",
+        "await harness.stepFrames(200);",
+        "// Path kanan kurang coin -> Shop4",
+        " harness.setSceneVariable('Coins', 5);",
+        " harness.setSceneVariable('Ammo', 10);",
+        " await harness.stepFrames(2);",
+        " harness.setKeyPressed('e', true);",
+        " await harness.stepFrames(2);",
+        " harness.setKeyPressed('e', false);",
+        " await harness.stepFrames(5);",
+        " await clickObj('ButtonShop_Kanan');",
+        " await harness.stepFrames(40);",
+        " await clickObj('ButtonShop2Kiri');",
+        " await harness.stepFrames(5);",
+        " st = harness.getSceneVariable('State');",
+        " harness.assert(st.value === 'fail', 'Ammo kurang harus fail (Shop4), got ' + st.value);",
+        " await harness.stepFrames(200);",
+        " st = harness.getSceneVariable('State');",
+        " harness.assert(st.value === 'play', 'Setelah Shop4 3 detik kembali play, got ' + st.value);",
+        ""
+      ]
+    },
+    {
+      "description": "Verify Intro and About navigation",
+      "lastRunAt": 1794130307846,
+      "lastRunDurationMs": 520,
+      "lastRunFramesExecuted": 63,
+      "lastRunStatus": "failed",
+      "name": "intro_about_check",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Intro');",
+        "await harness.stepFrames(10);",
+        "async function clickObj(name) {",
+        "  const objs = harness.getObjects(name);",
+        "  if (!objs.length) { harness.fail('object not found: ' + name); return; }",
+        "  const o = objs[0];",
+        "  harness.setMousePosition(o.centerX, o.centerY, o.layer);",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(true);",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(false);",
+        "  await harness.stepFrames(5);",
+        "}",
+        "await clickObj('About');",
+        "await harness.stepFrames(10);",
+        "harness.assert(harness.getSceneName() === 'About', 'About button -> About scene, got ' + harness.getSceneName());",
+        "await harness.stepFrames(5);",
+        "await clickObj('ButtonAbout1');",
+        "await harness.stepFrames(5);",
+        "harness.assert(harness.getSceneName() === 'About', 'still in About after ButtonAbout1, got ' + harness.getSceneName());",
+        "let a2 = harness.getObjects('About2')[0];",
+        "let a1 = harness.getObjects('About1')[0];",
+        "harness.assert(a2 && !a2.hidden, 'ButtonAbout1 shows About2');",
+        "harness.assert(a1 && a1.hidden, 'About1 hidden after next');",
+        "await clickObj('Button2Next');",
+        "await harness.stepFrames(5);",
+        "let a3 = harness.getObjects('About3')[0];",
+        "harness.assert(a3 && !a3.hidden, 'Button2Next shows About3');",
+        "await clickObj('ButtonAbout3Kanan');",
+        "await harness.stepFrames(5);",
+        "let a4 = harness.getObjects('About4')[0];",
+        "harness.assert(a4 && !a4.hidden, 'ButtonAbout3Kanan shows About4');",
+        "await clickObj('ButtonMainMenu');",
+        "await harness.stepFrames(10);",
+        "harness.assert(harness.getSceneName() === 'Intro', 'ButtonMainMenu -> Intro, got ' + harness.getSceneName());",
+        "await clickObj('StartGame');",
+        "await harness.stepFrames(10);",
+        "harness.assert(harness.getSceneName() === 'Gameplay1', 'StartGame -> Gameplay1, got ' + harness.getSceneName());",
+        ""
+      ]
+    },
+    {
+      "description": "Verify About paging with cooldown",
+      "lastRunAt": 1794130372920,
+      "lastRunDurationMs": 907,
+      "lastRunFramesExecuted": 181,
+      "lastRunStatus": "passed",
+      "name": "about_debug",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('About');",
+        "await harness.stepFrames(30);",
+        "async function clickObj(name) {",
+        "  const o = harness.getObjects(name)[0];",
+        "  harness.setMousePosition(o.centerX, o.centerY, o.layer);",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(true);",
+        "  await harness.stepFrames(3);",
+        "  harness.setMouseButtonPressed(false);",
+        "  await harness.stepFrames(30);",
+        "}",
+        "await clickObj('ButtonAbout1');",
+        "let a2 = harness.getObjects('About2')[0];",
+        "harness.assert(a2 && !a2.hidden, 'About1->About2 ok');",
+        "await clickObj('Button2Next');",
+        "let a3 = harness.getObjects('About3')[0];",
+        "let a4 = harness.getObjects('About4')[0];",
+        "harness.assert(a3 && !a3.hidden, 'About2->About3 ok');",
+        "harness.assert(a4 && a4.hidden, 'About4 masih hidden (tidak loncat)');",
+        "await clickObj('ButtonAbout3Kanan');",
+        "a4 = harness.getObjects('About4')[0];",
+        "harness.assert(a4 && !a4.hidden, 'About3->About4 ok');",
+        "await clickObj('ButtonMainMenu');",
+        "await harness.stepFrames(10);",
+        "harness.assert(harness.getSceneName() === 'Intro', 'MainMenu->Intro, got ' + harness.getSceneName());",
+        ""
+      ]
+    },
+    {
+      "description": "Verify fixed button mapping",
+      "lastRunAt": 1794131944446,
+      "lastRunDurationMs": 952,
+      "lastRunFramesExecuted": 228,
+      "lastRunStatus": "passed",
+      "name": "intro_nav_check",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Intro');",
+        "await harness.stepFrames(10);",
+        "async function clickObj(name) {",
+        "  const objs = harness.getObjects(name);",
+        "  if (!objs.length) { harness.fail('object not found: ' + name); return; }",
+        "  const o = objs[0];",
+        "  console.log('click ' + name + ' hidden=' + o.hidden + ' cx=' + Math.round(o.centerX) + ' cy=' + Math.round(o.centerY) + ' w=' + Math.round(o.width) + ' h=' + Math.round(o.height));",
+        "  harness.setMousePosition(o.centerX, o.centerY, o.layer);",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(true);",
+        "  await harness.stepFrames(3);",
+        "  harness.setMouseButtonPressed(false);",
+        "  await harness.stepFrames(10);",
+        "}",
+        "await clickObj('StartGame');",
+        "await harness.stepFrames(10);",
+        "harness.assert(harness.getSceneName() === 'Gameplay1', 'StartGame -> Gameplay1, got ' + harness.getSceneName());",
+        "await harness.goToScene('Intro');",
+        "await harness.stepFrames(10);",
+        "await clickObj('LevelSelect');",
+        "await harness.stepFrames(10);",
+        "harness.assert(harness.getSceneName() === 'Level Select', 'LevelSelect -> Level Select, got ' + harness.getSceneName());",
+        "await harness.goToScene('Intro');",
+        "await harness.stepFrames(10);",
+        "await clickObj('About');",
+        "await harness.stepFrames(10);",
+        "harness.assert(harness.getSceneName() === 'About', 'About btn -> About, got ' + harness.getSceneName());",
+        "await harness.stepFrames(20);",
+        "await clickObj('ButtonAbout1');",
+        "await harness.stepFrames(10);",
+        "let a2 = harness.getObjects('About2')[0];",
+        "harness.assert(a2 && !a2.hidden, 'About1->About2 ok');",
+        "await clickObj('Button2Next');",
+        "await harness.stepFrames(10);",
+        "let a3 = harness.getObjects('About3')[0];",
+        "harness.assert(a3 && !a3.hidden, 'About2->About3 ok');",
+        "await clickObj('ButtonAbout3Kanan');",
+        "await harness.stepFrames(10);",
+        "let a4 = harness.getObjects('About4')[0];",
+        "harness.assert(a4 && !a4.hidden, 'About3->About4 ok');",
+        "await clickObj('ButtonMainMenu');",
+        "await harness.stepFrames(10);",
+        "harness.assert(harness.getSceneName() === 'Intro', 'MainMenu -> Intro, got ' + harness.getSceneName());",
+        ""
+      ]
     }
   ],
   "testsFolderStructure": {
@@ -9041,6 +12398,24 @@
     "children": [
       {
         "itemName": "coin_shoot_check"
+      },
+      {
+        "itemName": "shop_buy_check"
+      },
+      {
+        "itemName": "shop_exact15_check"
+      },
+      {
+        "itemName": "shop_ammo_check"
+      },
+      {
+        "itemName": "intro_about_check"
+      },
+      {
+        "itemName": "about_debug"
+      },
+      {
+        "itemName": "intro_nav_check"
       }
     ]
   },
